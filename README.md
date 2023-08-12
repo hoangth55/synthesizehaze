@@ -1,9 +1,5 @@
 # Synthesize Hazy/Foggy Image using Monodepth and Atmospheric Scattering Model
 
-This project is to synthesize hazy/foggy image using Monodepth and atmospheric scattering model.
-
-Medium article: [Synthesize Hazy/Foggy Image using Monodepth and Atmospheric Scattering Model](https://leanhtrann.medium.com/synthesize-hazy-foggy-image-using-monodepth-and-atmospheric-scattering-model-9850c721b74e)
-
 ### Dependencies
 - OpenCV
 - Matplotlib

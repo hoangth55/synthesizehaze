@@ -34,6 +34,7 @@ print(fname)
 img = plt.imread(path)
 
 depth_path = f"data/{fname}_depth.jpg"
+haze_path = f"data/{fname}_haze.jpg"
 depth_img = plt.imread(depth_path)
 
 depth_img_3c = np.zeros_like(img)
@@ -62,5 +63,9 @@ plt.subplot(323), plt.imshow(trans, cmap="gray")
 plt.subplot(324), plt.imshow(hazy)
 plt.subplot(325), plt.imshow(trans2, cmap="gray")
 plt.subplot(326), plt.imshow(hazy2)
+
+#New: Save haze image
+plt.imsave(haze_path, hazy)
+
 plt.show()
 
